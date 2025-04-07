@@ -153,7 +153,7 @@ class TransformerNetModel2(nn.Module):
 
         if config is None:
             # print(config_name)
-            config = AutoConfig.from_pretrained("/root/Diffusion-LM/bert")
+            config = AutoConfig.from_pretrained(('bert-base-uncased'))
             config.hidden_dropout_prob = dropout
             # config.hidden_size = 512
 
