@@ -4,11 +4,11 @@
 
 ##  Model Architecture
 The proposed KD-RSCC consists of:
--(A) the Karras diffusion framework with sampling method
--(B) image difference-conditioned denoiser via $I_{\text{diff}}$
-  (1) Change Feature Extraction
-  (2) Semantic-Spatial Alignment
-  (3) Hierarchical Self-Attention Refinement.
+- (A) the Karras diffusion framework with sampling method
+- (B) image difference-conditioned denoiser via $I_{\text{diff}}$
+  - (1) Change Feature Extraction
+  - (2) Semantic-Spatial Alignment
+  - (3) Hierarchical Self-Attention Refinement.
 
 ![method](https://github.com/user-attachments/assets/0ba213d5-a4a6-4b0a-a8a0-30e4594aa72a)
 
