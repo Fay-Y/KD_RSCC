@@ -61,11 +61,9 @@ sh train.sh
 
 ## Prediction samples
 Prediction results in test set with 5 Ground Truth captions are partly shown below, proving the effectiveness of our model. 
-<table>
-  <tr>
+
 ![compare_all](https://github.com/user-attachments/assets/5c30b371-5ef1-4303-a3ea-810395caddbf)
-  </tr>
-</table>
+
 
 ## TODO
 - [ ] Release training logs and checkpoints
