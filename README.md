@@ -39,10 +39,10 @@ path to ./data:
 
 ## Installation and Dependencies
 ```python
-git clone https://github.com/Fay-Y/Diffusion-RSCC
-cd Diffusion-RSCC
-conda create -n DiffusionRSCC_env python=3.8
-conda activate DiffusionRSCC_env
+git clone git@github.com:Fay-Y/KD_RSCC.git
+cd KD_RSCC
+conda create -n KD_env python=3.8
+conda activate KD_env
 pip install -r requirements.txt
 ```
 ## Preparation
@@ -55,20 +55,10 @@ python img_preprocess.py
 ## Training
  To train the proposed Diffusion-RSCC, run the following command:
 ```python
-sh demo.sh
+sh train.sh
 ```
 
-## Testing
- To test, evaluate and visualize on the test dataset, run the following command
-```python
-sh testlm.sh
-```
 
-## Visualization
-```python
-cd result
-```
-In the paper, the predicted captions are saved in folder "result". 
 ## Prediction samples
 Prediction results in test set with 5 Ground Truth captions are partly shown below, proving the effectiveness of our model. 
 <table>
