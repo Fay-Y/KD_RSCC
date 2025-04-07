@@ -1,0 +1,47 @@
+{
+    "model": {
+        "type": "rscc",
+        "input_channels": 16,
+        "input_size": [44],
+        "model_channels":768,
+        "out_channels":16,
+
+        "depths": [2, 2, 4],
+        "widths": [768, 256, 512],
+        "vocab_size":2788,
+        
+        "loss_config": "karras",
+        "loss_weighting": "soft-min-snr",
+        "dropout_rate": [0.0, 0.0, 0.1],
+        "mapping_dropout_rate": 0.0,
+        "augment_prob": 0.0,
+        "sigma_data": 0.5,
+        "sigma_min": 1e-2,
+        "sigma_max": 160,
+        "sigma_sample_density": {
+            "type": "cosine-interpolated"
+        }
+    },
+    "dataset": {
+        "type": "levircc",
+        "location": "CCdataloader.py",
+        "get_dataset": "CCdataset", 
+        "data_folder": "datasets_large"
+    },
+    "optimizer": {
+        "type": "adamw",
+        "lr": 5e-5,
+        "betas": [0.9, 0.95],
+        "eps": 1e-8,
+        "weight_decay": 1e-3
+    },
+    "lr_sched": {
+        "type": "constant",
+        "warmup": 0.0
+    },
+    "ema_sched": {
+        "type": "inverse",
+        "power": 0.75,
+        "max_value": 0.9999
+    }
+}

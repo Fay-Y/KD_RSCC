@@ -1,0 +1,1 @@
+CUDA_LAUNCH_BLOCKING=1 CUDA_VISIBLE_DEVICES=3 NCCL_P2P_DISABLE=1 NCCL_IB_DISABLE=1 python train.py --config configs/config_CC.json --name LevirCC --evaluate-n 0 --batch-size 64 --sample-n 36 --mixed-precision bf16
