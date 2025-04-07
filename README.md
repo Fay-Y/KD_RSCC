@@ -9,7 +9,8 @@ The proposed KD-RSCC consists of:
   (1) Change Feature Extraction
   (2) Semantic-Spatial Alignment
   (3) Hierarchical Self-Attention Refinement.
-![flowchart](https://github.com/user-attachments/assets/2bc99e09-b23b-416c-aa63-044a059be52f)
+
+![method](https://github.com/user-attachments/assets/0ba213d5-a4a6-4b0a-a8a0-30e4594aa72a)
 
 ### Datasets
 #### LEVIR-CC
