@@ -63,8 +63,7 @@ sh train.sh
 Prediction results in test set with 5 Ground Truth captions are partly shown below, proving the effectiveness of our model. 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/eaf7ba0c-1a4d-44cd-9d11-84bfda0058ab" alt="compare2" width="500"/></td>
-    <td><img src="https://github.com/user-attachments/assets/b61bad59-afd0-4313-9b97-d7ab859222eb" alt="compare1" width="500"/></td>
+![compare_all](https://github.com/user-attachments/assets/5c30b371-5ef1-4303-a3ea-810395caddbf)
   </tr>
 </table>
 
